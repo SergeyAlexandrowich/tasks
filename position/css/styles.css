@@ -1,0 +1,24 @@
+.section-fist-task {
+    display: flex;
+    position: static;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-fist-task-red-block {
+    margin: 0 auto;
+    position: relative;
+    background-color: red;
+    width: 250px;
+    height: 250px;
+    right: 133px;
+    left: 29px;
+}
+    
+.section-fist-task-green-block {
+    margin: 0 auto;
+    position: relative;
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    right: 29px;}
