@@ -1,7 +1,8 @@
 body {
-    background-image:url(../img/sauron2.jpg);
+    background:url(../img/sauron2.jpg) black;
     margin: 0 auto;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
@@ -41,8 +42,7 @@ body {
     display: inline-block;
     position: relative;
     padding: 15px 30px;
-    border: 1px solid;
-    border-image: linear-gradient(180deg, #B66EBD, #ea94f2, #ff096c, #d50082);
+    border: 1px solid red;
     border-image-slice: 1;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -61,7 +61,7 @@ body {
     width: 100%;
     z-index: -1;
     color: white;
-    background: linear-gradient(180deg, #B66EBD, #ea94f2, #ff096c, #d50082);
+    background: red;
     transition: .8s cubic-bezier(.165, .84, .44, 1);
   
 }
